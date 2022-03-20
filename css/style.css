@@ -67,7 +67,7 @@ body {
 
 /* BANNER */
 .banner {
-    background: url("/Alura geek/imagens/banner.jpg") center;
+    background: url('/Alura Geek/imagens/banner.jpg') center;
     box-shadow: inset 0 0 150rem black;
     background-size: cover;
     height: 352px;
