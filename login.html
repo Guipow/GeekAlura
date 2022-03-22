@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/login.css">
     <title>Alura Geek</title>
 </head>
@@ -15,7 +16,9 @@
         <div class="header-one">
 
             <div class="header-left">
-                <img class="header-logo" src="imagens/Logo.png" alt="">
+                <a href="index.html"><img class="header-logo" src="imagens/Logo.png" alt=""></a>
+                <a href="index.html"><img class="header-mobile" src="imagens/Logo-tablet.png" alt=""></a>
+
 
                 <div class="header-inpt">
                     <input type="text" class="buscar" placeholder="O que deseja encontrar? ">
@@ -32,7 +35,14 @@
     </header>
 
     <main>
-       
+       <div class="login">
+           <h1>Iniciar Sessão</h1>
+           <form>
+               <input type="email" class="login-inpt" placeholder="Escreva seu email">
+               <input type="password" class="login-inpt" placeholder="Escreva sua senha">
+               <input type="submit" value="Entrar" class="login-btn">
+           </form>
+       </div>
     </main>
 
     <footer>
