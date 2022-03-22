@@ -1,118 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
-body {
-    font-family: 'Raleway', sans-serif;
-    Width: 100%;
-    Height: 100%;
-    
-}
-/* CABEÇALHO */
-.header-mobile {
-    display: none;
-}
-.header-one {
-    position: relative;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1600px;
-    height: 115px;
-    background-color: #FFFFFF;
-}
-.header-left {
-    display: flex;
-    width: 601px;
-    height: 50px;
-    align-items: center;
-}
-.header-inpt img {
-    position: absolute;
-    top: 48.5px;
-    left: 950px;
-}
-.header-right button {
-    width: 182px;
-    height: 51px;
-    border: 1px solid #2A7AE4;
-    box-sizing: border-box;
-    background: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #2A7AE4;
-    padding: 16px 70px;
-}
-.header-right button:hover{
-    cursor: pointer;
-    background: #D4E4FA;
-}
-.buscar {
-    width: 768px;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-    background-color: #F5F5F5;
-    margin-left: 32px;
-    padding-left: 16px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #A2A2A2;
-}
-
-/* BANNER */
-.banner {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),  url('../imagens/banner.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 352px;
-    margin: 0 auto;
-}
-.banner div {
-    display: flex;
-    flex-direction: column;
-    padding-top: 150px;
-    width: 1600px;
-    position: relative;
-    margin: 0 auto;
-}
-.banner div > h1 {
-    font-family: 'Raleway';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 61px;
-    color: #FFFFFF;
-}
-.banner div > h2 {
-    font-style: bold;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.btn-banner {
-    width: 130px;
-    height: 51px;
-    background: #2A7AE4;
-    border: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-    margin-bottom: 32px;
-
-}
-.btn-banner:hover{
-    cursor: pointer;
-    background: #5595E9;
-}
 
 /* MAIN */
 
@@ -250,138 +137,8 @@ body {
     margin-bottom: 64px;
 }
 
-/* FOOTER */
-footer {
-    background: rgba(234, 242, 253, 1);
-}
-.footer-1 {
-    width: 1600px;
-    height: 368px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
-    background: rgba(234, 242, 253, 1);
-    margin: 0 auto;
-}
-.footer-links h1 {
-    color: rgba(70, 70, 70, 1);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    margin-bottom: 24px;
-}
-
-.footer-forms h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #464646;
-    margin-bottom: 8px;
-}
-form label {
-    position: absolute;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: rgba(162, 162, 162, 1);
-    margin-top: 8px;
-    margin-left: 12px;
-    margin-bottom: 4px;
-}
-.inpt-nome {
-    width: 548px;
-    display: block;
-    margin-bottom: 16px;
-    background: #FFFFFF;
-    border-radius: 4px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgba(70, 70, 70, 1);
-    padding: 28px 0 8px 12px;
-    border: none;
-    box-shadow: 0px 1px 0px  #C8C8C8;
-}
-.inpt-text::-moz-placeholder {
-    width: 548px;
-    height: 20px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgba(162, 162, 162, 1);
-}
-form textarea {
-    width: 547px;
-    height: 20px;
-    border: none;
-    resize: none;
-    background: #FFFFFF;
-    border-radius: 4px;
-    box-shadow: 0px 1px 0px  #C8C8C8;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgba(70, 70, 70, 1);
-    padding-top: 16px;
-    padding-left: 12px;
-    padding-bottom: 46px;
-}
-.inpt-btn {
-    width: 165px;
-    height: 51px;
-    background: rgba(42, 122, 228, 1);
-    border: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(255, 255, 255, 1);
-    margin-top: 8px;
-}
-.footer-forms {
-    width: 560px;
-    height: 240px;
-}
-
-.footer-2 {
-    height: 102px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFFFFF;
-}
-.footer-2 div {
-    Width: 234px;
-    Height: 38px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: rgba(70, 70, 70, 1);
-}
-
 @media (max-width: 1800px) {
-    .header-one {
-        width: 1440px;
-    }
-    .banner div {
-        width: 1440px;
-    }
     .sections {
-        width: 1440px;
-    }
-    .footer-1 {
         width: 1440px;
     }
     .card-1 img {
@@ -406,15 +163,6 @@ form textarea {
 }
 
 @media (max-width: 1500px) {
-    .header-one {
-        width: 1136px;
-    }
-    .banner div {
-        width: 1136px;
-    }
-    .footer-1 {
-        width: 1136px;
-    }
     .sections {
         width: 1136px;
     }
@@ -436,40 +184,9 @@ form textarea {
     .card-6 img {
         width: 176px;
     }
-    .buscar {
-        width: 393px;
-    }
-    .header-inpt img {
-        left: 580px;
-    }
 }
 @media (max-width: 1210px) {
     
-    .header-one {
-        width: 768px;
-        height: 72px;
-    }
-    .header-right button {
-        width: 166px;
-        height: 40px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        padding: 12px 64px;
-    }
-    .buscar {
-        width: 272px;
-        height: 40px;
-    }
-    .header-inpt img {
-        position: absolute;
-        top: 27px;
-        left: 460px;
-    }
-    .banner div {
-        padding-top: 150px;
-        width: 768px;
-    }
     .sections {
         width: 768px;
     }
@@ -491,76 +208,11 @@ form textarea {
     .card-6 {
        display: none;
     }
-    .footer-1 {
-        width: 768px;
-        height: 368px;
-        padding-top: 0;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    .inpt-nome {
-        width: 434px;
-    }
-    form textarea {
-        width: 434px;
-    }
-    .footer-forms {
-        padding-left: 150px;
-    }   
 }
 
 @media (max-width: 850px) {
-    .header-left {
-        width: 175px;
-        height: 51px;
-    }
-    .header-right {
-        padding-left: 40px;
-    }
-    .header-one {
-        display: flex;
-        justify-content: flex-start;
-        width: 500px;
-    }
-    .banner div {
-        padding-top: 78px;
-        width: 500px;
-    }
-    .header-inpt input {
-        display: none;
-    }
-    .footer-1 {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        height: 600px;
-    }
-    .footer-1 {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        height: 600px;
-    }
-    .footer-forms {
-        width: 328px;
-        padding-left: 0;
-    }
-    .inpt-nome {
-        width: 328px;
-    }
-    form textarea {
-        width: 328px;
-    }
+    
     .sections {
-        width: 500px;
-    }
-    .footer-1 {
         width: 500px;
     }
     .card-1 img {
@@ -584,74 +236,9 @@ form textarea {
 }
 
 @media (max-width: 560px) {
-    .header-logo {
-        display: none;
-    }
-    .header-mobile {
-        display: block;
-    }
-    .header-left {
-        width: 100px;
-        height: 28px;
-    }
-    .header-right {
-        padding-left: 20px;
-    }
-    .header-inpt img {
-        position: absolute;
-        top: 27px;
-        left: 300px;
-    }
-    .header-right button {
-        width: 133px;
-        height: 40px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16.44px;
-        padding: 12px 47.5px;
-    }
-    .header-one {
-        width: 328px;
-        display: flex;
-        justify-content: flex-start;
-    }
-    .banner {
-        height: 220px;
-    }
-    .banner div {
-        padding-top: 78px;
-        width: 328px;
-    }
     .sections {
         width: 328px;
         height: auto;
-    }
-    .footer-1 {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 360px;
-        height: 600px;
-    }
-    .footer-forms {
-        width: 328px;
-        padding-left: 0;
-    }
-    .inpt-nome {
-        width: 328px;
-    }
-    form textarea {
-        width: 328px;
-    }
-    .banner div > h1 {
-        font-size: 22px;
-        line-height: 26px;
-    }
-    .banner div > h2 {
-        font-size: 14px;
-        line-height: 16px;
     }
     .cards {
         display: flex;

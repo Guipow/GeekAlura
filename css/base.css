@@ -231,3 +231,199 @@ form textarea {
     text-align: center;
     color: rgba(70, 70, 70, 1);
 }
+
+@media (max-width: 1800px) {
+    .header-one {
+        width: 1440px;
+    }
+    .banner div {
+        width: 1440px;
+    }
+    .footer-1 {
+        width: 1440px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    .header-one {
+        width: 1136px;
+    }
+    .banner div {
+        width: 1136px;
+    }
+    .footer-1 {
+        width: 1136px;
+    }
+    .buscar {
+        width: 393px;
+    }
+    .header-inpt img {
+        left: 580px;
+    }
+}
+@media (max-width: 1210px) {
+    
+    .header-one {
+        width: 768px;
+        height: 72px;
+    }
+    .header-right button {
+        width: 166px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 12px 64px;
+    }
+    .buscar {
+        width: 272px;
+        height: 40px;
+    }
+    .header-inpt img {
+        position: absolute;
+        top: 27px;
+        left: 460px;
+    }
+    .banner div {
+        padding-top: 150px;
+        width: 768px;
+    }
+    .footer-1 {
+        width: 768px;
+        height: 368px;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .inpt-nome {
+        width: 434px;
+    }
+    form textarea {
+        width: 434px;
+    }
+    .footer-forms {
+        padding-left: 150px;
+    }   
+}
+
+@media (max-width: 850px) {
+    .header-left {
+        width: 175px;
+        height: 51px;
+    }
+    .header-right {
+        padding-left: 40px;
+    }
+    .header-one {
+        display: flex;
+        justify-content: flex-start;
+        width: 500px;
+    }
+    .banner div {
+        padding-top: 78px;
+        width: 500px;
+    }
+    .header-inpt input {
+        display: none;
+    }
+    .footer-1 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 600px;
+    }
+    .footer-1 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 600px;
+    }
+    .footer-forms {
+        width: 328px;
+        padding-left: 0;
+    }
+    .inpt-nome {
+        width: 328px;
+    }
+    form textarea {
+        width: 328px;
+    }
+    .footer-1 {
+        width: 500px;
+    }
+}
+
+@media (max-width: 560px) {
+    .header-logo {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+    }
+    .header-left {
+        width: 100px;
+        height: 28px;
+    }
+    .header-right {
+        padding-left: 20px;
+    }
+    .header-inpt img {
+        position: absolute;
+        top: 27px;
+        left: 300px;
+    }
+    .header-right button {
+        width: 133px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.44px;
+        padding: 12px 47.5px;
+    }
+    .header-one {
+        width: 328px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .banner {
+        height: 220px;
+    }
+    .banner div {
+        padding-top: 78px;
+        width: 328px;
+    }
+    .footer-1 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 360px;
+        height: 600px;
+    }
+    .footer-forms {
+        width: 328px;
+        padding-left: 0;
+    }
+    .inpt-nome {
+        width: 328px;
+    }
+    form textarea {
+        width: 328px;
+    }
+    .banner div > h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .banner div > h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
