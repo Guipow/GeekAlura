@@ -62,57 +62,6 @@ body {
     color: #A2A2A2;
 }
 
-/* BANNER */
-.banner {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),  url('../imagens/banner.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 352px;
-    margin: 0 auto;
-}
-.banner div {
-    display: flex;
-    flex-direction: column;
-    padding-top: 150px;
-    width: 1600px;
-    position: relative;
-    margin: 0 auto;
-}
-.banner div > h1 {
-    font-family: 'Raleway';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 61px;
-    color: #FFFFFF;
-}
-.banner div > h2 {
-    font-style: bold;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-.btn-banner {
-    width: 130px;
-    height: 51px;
-    background: #2A7AE4;
-    border: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-    margin-bottom: 32px;
-
-}
-.btn-banner:hover{
-    cursor: pointer;
-    background: #5595E9;
-}
-
 /* FOOTER */
 footer {
     background: rgba(234, 242, 253, 1);
@@ -207,6 +156,10 @@ form textarea {
     line-height: 19px;
     color: rgba(255, 255, 255, 1);
     margin-top: 8px;
+    cursor: pointer;
+}
+.inpt-btn:hover {
+    background-color: rgba(85, 149, 233, 1);
 }
 .footer-forms {
     width: 560px;
@@ -236,9 +189,6 @@ form textarea {
     .header-one {
         width: 1440px;
     }
-    .banner div {
-        width: 1440px;
-    }
     .footer-1 {
         width: 1440px;
     }
@@ -247,9 +197,6 @@ form textarea {
 
 @media (max-width: 1500px) {
     .header-one {
-        width: 1136px;
-    }
-    .banner div {
         width: 1136px;
     }
     .footer-1 {
@@ -285,10 +232,6 @@ form textarea {
         top: 27px;
         left: 460px;
     }
-    .banner div {
-        padding-top: 150px;
-        width: 768px;
-    }
     .footer-1 {
         width: 768px;
         height: 368px;
@@ -320,10 +263,6 @@ form textarea {
     .header-one {
         display: flex;
         justify-content: flex-start;
-        width: 500px;
-    }
-    .banner div {
-        padding-top: 78px;
         width: 500px;
     }
     .header-inpt input {
@@ -392,13 +331,6 @@ form textarea {
         display: flex;
         justify-content: flex-start;
     }
-    .banner {
-        height: 220px;
-    }
-    .banner div {
-        padding-top: 78px;
-        width: 328px;
-    }
     .footer-1 {
         display: flex;
         flex-wrap: nowrap;
@@ -417,13 +349,5 @@ form textarea {
     }
     form textarea {
         width: 328px;
-    }
-    .banner div > h1 {
-        font-size: 22px;
-        line-height: 26px;
-    }
-    .banner div > h2 {
-        font-size: 14px;
-        line-height: 16px;
     }
 }
