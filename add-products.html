@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/login.css">
-    <title>Alura Geek | Login</title>
+    <link rel="stylesheet" href="css/add-products.css">
+    <title>Alura Geek | Admin</title>
 </head>
 
 <body>
@@ -19,30 +19,66 @@
                 <a href="index.html"><img class="header-logo" src="imagens/Logo.png" alt=""></a>
                 <a href="index.html"><img class="header-mobile" src="imagens/Logo-tablet.png" alt=""></a>
 
-
                 <div class="header-inpt">
                     <input type="text" class="buscar" placeholder="O que deseja encontrar? ">
                     <img src="imagens/vector.buscar.png" alt="">
                 </div>
             </div>
 
-            <div class="header-right">
-                <a href="admin.html"><button>Login</button></a>
-            </div>
+            <a href="admin.html" style="text-decoration: none;">
+                <div class="author">
+                    <p>Guipow</p>
+                    <img src="imagens/guipow-icon.png" alt="">
+                </div>
+            </a>
 
         </div>
 
     </header>
 
     <main>
-        <div class="login">
-            <h1>Iniciar Sessão</h1>
-            <form>
-                <input type="email" class="login-inpt" placeholder="Escreva seu email" required>
-                <input type="password" class="login-inpt" placeholder="Escreva sua senha" required>
-                <input type="submit" value="Entrar" class="login-btn">
-            </form>
-        </div>
+        <section>
+            <div class="new-product">
+                <h1 class="new-product-title">Adicionar novo produto</h1>
+
+                <div class="add-img">
+
+                    <div class="container-img-desktop">
+                        <img src="imagens/img-vector.png" alt="">
+                        <h1>Arraste para adicionar uma imagem para o produto</h1>
+                    </div>
+                    <div class="container-img-mobile">
+                        <img src="imagens/img-vector.png" alt="">
+                        <h1>Arraste para adicionar uma imagem para o produto</h1>
+                    </div>
+
+                    <h2>Ou</h2>
+
+                    <a href="" class="button-desktop">
+                        <button>Procure no seu computador</button>
+                    </a>
+                    <a href="" class="button-mobile">
+                        <button>Procure no seu tablet</button>
+                    </a>
+                </div>
+
+
+                <form>
+
+                    <label for="nome">Nome do produto</label>
+                    <input class="inpt-prodnome" type="text" id="nome" required>
+
+                    <label for="Preço">Preço do produto</label>
+                    <input class="inpt-prodpreco" type="text" id="preco" required>
+
+                    <textarea placeholder="Descrição do produto" class="prod-text" required></textarea>
+
+                    <input class="inpt-addproduto" type="submit" value="Adicionar produto">
+
+                </form>
+
+            </div>
+        </section>
     </main>
 
     <footer>

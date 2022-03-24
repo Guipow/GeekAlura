@@ -99,7 +99,7 @@ form label {
     color: rgba(162, 162, 162, 1);
     margin-top: 8px;
     margin-left: 12px;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
 }
 .inpt-nome {
     width: 548px;
@@ -285,14 +285,14 @@ form textarea {
         height: 600px;
     }
     .footer-forms {
-        width: 328px;
+        width: 500px;
         padding-left: 0;
     }
     .inpt-nome {
-        width: 328px;
+        width: 498px;
     }
     form textarea {
-        width: 328px;
+        width: 498px;
     }
     .footer-1 {
         width: 500px;
@@ -345,9 +345,9 @@ form textarea {
         padding-left: 0;
     }
     .inpt-nome {
-        width: 328px;
+        width: 316px;
     }
     form textarea {
-        width: 328px;
+        width: 316px;
     }
 }
