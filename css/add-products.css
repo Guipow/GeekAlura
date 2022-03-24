@@ -196,6 +196,9 @@ textarea.prod-text {
     .inpt-addproduto {
         width: 500px;
     }
+    .author p {
+        display: none;
+    }
 }
 
 @media (max-width: 560px) {
